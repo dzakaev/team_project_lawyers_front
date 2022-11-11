@@ -1,0 +1,10 @@
+.main {
+  background-color: #171a1e;
+  color: #ffffff;
+}
+.cont {
+  display: flex;
+}
+.mainLogo {
+  width: calc(58.33333% - 10px)
+}

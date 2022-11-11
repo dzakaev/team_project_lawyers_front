@@ -1,0 +1,8 @@
+.cardDiv {
+  display: flex;
+  width: 18rem;
+  margin: 40px 0 0 50px;
+}
+.main {
+  display: flex;
+}

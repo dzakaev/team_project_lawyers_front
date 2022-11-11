@@ -1,0 +1,38 @@
+.category {
+  display: flex;
+  margin: 30px 10% 0 10%;
+}
+.select {
+  margin: 10px;
+}
+.dropTwo:hover {
+  background-color: #5aa5de
+}
+
+.drop:hover .dropMenu {
+  cursor: pointer;
+  display: block;
+  margin-top: 0;
+  background-color: #5facde;
+}
+.dropTwo {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.dro:hover .dropMe {
+  cursor: pointer;
+  display: block;
+  background-color: #5facde;
+}
+/*.menu .submenu {*/
+/*  opacity: 0; !* По умолчанию скрываем подменю *!*/
+/*  visibility: hidden;*/
+/*  transition-property: opacity, visibility; !* Важно чтобы transition применялось к обоим свойствам *!*/
+/*  transition-duration: 0.2s; !* Добавляем анимацию 0.3 сек. *!*/
+/*  transition-delay: 0.15s; !* Добавляем задержку в 0.15 сек. *!*/
+/*}*/
+/*.menu .menu-item:hover .submenu {*/
+/*  opacity: 1; !* Показываем подменю при ховере *!*/
+/*  visibility: visible;*/
+/*}*/
